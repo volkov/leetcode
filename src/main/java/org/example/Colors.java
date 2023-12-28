@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.List;
-
 public class Colors {
     public int minCost(String colors, int[] neededTime) {
         char prev = 0;
