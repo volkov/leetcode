@@ -22,7 +22,7 @@ public class RunLength {
                     dp[i][j] = Math.min(dp[i][j], dp[i - 1][j - 1]);
                 }
 
-                int gropupSize = 1;
+                int gropupSize = 0;
                 int toDelete = 0;
                 for (int l = i - 1; l >= 0; l--) {
                     if (s.charAt(i - 1) != s.charAt(l)) {
